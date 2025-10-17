@@ -18,7 +18,7 @@
 
 ## Authentication and authorization
 -[x] Create user controller
--[] Setup user model
+-[] Register user
 
 ### Bonus
 -[] Build
