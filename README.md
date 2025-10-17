@@ -14,6 +14,7 @@
 -[x] Initialize project
 -[x] Install and setup express ' npm i express'
 -[x] Add cors
+-[x] Add furniture controller
 
 
 ### Bonus
