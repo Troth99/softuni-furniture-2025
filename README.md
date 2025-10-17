@@ -16,6 +16,9 @@
 -[x] Add cors
 -[x] Add furniture controller
 
+## Authentication and authorization
+-[x] Create user controller
+-[] Setup user model
 
 ### Bonus
 -[] Build
