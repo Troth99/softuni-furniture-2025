@@ -25,6 +25,8 @@
 - [x] install bcrypt 'npm i bcrypt'
 - [x] Hash password in register method
 - [x] Register user
+- [x] Veryfy login credentials
+- [ ] Generate JWT token
 
 ### Bonus
 -[] Build

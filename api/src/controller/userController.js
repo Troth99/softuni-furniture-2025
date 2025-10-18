@@ -12,4 +12,11 @@ userController.post('/register', async (req, res) => {
     res.end()
 })
 
+
+userController.post('/login', async (req, res) => {
+    const {email, password} = req.body;
+
+    userService.
+})
+
 export default userController
