@@ -26,7 +26,7 @@
 - [x] Hash password in register method
 - [x] Register user
 - [x] Veryfy login credentials
-- [ ] Generate JWT token
+- [x] Generate JWT token 'npm i jsonwebtoken'
 
 ### Bonus
 -[] Build

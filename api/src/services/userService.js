@@ -1,5 +1,6 @@
 import User from "../models/User.js"
 import bcrypt from 'bcrypt'
+import jwt from 'jsonwebtoken'
 
 export default {
     async register(email, password) {
@@ -19,11 +20,21 @@ export default {
         if (!isValid) {
             throw new Error('Invalid email or password');
         }
-        
+
         //Generate token
+        const payload = {
+            id: user.id,
+            email: user.email
+        }
 
-        return
+        const token = jwt.sign(payload, 'SDASDHSAIHDIHSAIDSAHKDHKSAHLKDS', { expiresIn: '2h' })
 
-    
+        return {
+            _id: user.id,
+            email: user.email,
+            accessToken: token
+        }
+
+
     }
 }
