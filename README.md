@@ -22,8 +22,8 @@
 - [x] Install mongoose 'npm i mongoose'
 - [x] Add user model
 - [x] Add user service with register method
-- [ ] install bcrypt 'npm i bcrypt'
-- [ ] Hash password in register method
+- [x] install bcrypt 'npm i bcrypt'
+- [x] Hash password in register method
 - [] Register user
 
 ### Bonus
