@@ -1,11 +1,20 @@
 import User from "../models/User.js"
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
+import { generateAuthToken } from "../utils/tokenUtils.js"
 
 export default {
     async register(email, password) {
 
-        return User.create({ email, password })
+        const user = await  User.create({ email, password })
+        const token = generateAuthToken(user)
+        
+          return {
+            _id: user.id,
+            email: user.email,
+            accessToken: token
+        }
+
 
     },
     async login(email, password) {
