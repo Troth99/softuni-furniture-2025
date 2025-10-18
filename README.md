@@ -19,8 +19,8 @@
 ## Authentication and authorization
 - [x] Create user controller
 - [x] Add json parse
-- [ ] Install mongoose 'npm i mongoose'
-- [ ] Add user model
+- [x] Install mongoose 'npm i mongoose'
+- [x] Add user model
 - [ ] Add user service with register method
 - [ ] install bcrypt 'npm i bcrypt'
 - [ ] Hash password in register method
