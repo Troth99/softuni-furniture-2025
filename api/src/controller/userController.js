@@ -28,7 +28,7 @@ userController.post('/login', async (req, res) => {
 });
 
 userController.get('/logout', (req, res) => {
-
+    console.log(req.user)
     res.status(204).json({ ok: true })
 })
 
