@@ -24,7 +24,7 @@
 - [x] Add user service with register method
 - [x] install bcrypt 'npm i bcrypt'
 - [x] Hash password in register method
-- [] Register user
+- [x] Register user
 
 ### Bonus
 -[] Build
