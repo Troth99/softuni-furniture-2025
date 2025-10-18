@@ -19,12 +19,17 @@ userController.post('/login', async (req, res) => {
     try {
         const result = await userService.login(email, password)
 
-        res.status(201).json( result )
+        res.status(201).json(result)
     } catch (error) {
 
         res.status(401).json({ message: error.message })
 
     }
+});
+
+userController.get('/logout', (req, res) => {
+
+    res.status(204).json({ ok: true })
 })
 
 export default userController

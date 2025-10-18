@@ -27,6 +27,9 @@
 - [x] Register user
 - [x] Veryfy login credentials
 - [x] Generate JWT token 'npm i jsonwebtoken'
+- [ ] Auto login after registration
+- [ ] Create logout functionality
+- [ ] Add auth middleware
 
 ### Bonus
 -[] Build
