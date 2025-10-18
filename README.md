@@ -11,14 +11,15 @@
 - [x] Setup vite for vanilla js
 
 ## Setup REST API
--[x] Initialize project
--[x] Install and setup express ' npm i express'
--[x] Add cors
--[x] Add furniture controller
+- [x] Initialize project
+- [x] Install and setup express ' npm i express'
+- [x] Add cors
+- [x] Add furniture controller
 
 ## Authentication and authorization
--[x] Create user controller
--[] Register user
+- [x] Create user controller
+- [] Add json parse
+- [] Register user
 
 ### Bonus
 -[] Build
