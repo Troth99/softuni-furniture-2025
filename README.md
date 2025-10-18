@@ -29,7 +29,14 @@
 - [x] Generate JWT token 'npm i jsonwebtoken'
 - [x] Auto login after registration
 - [x] Create logout functionality
-- [ ] Add auth middleware
+- [x] Add auth middleware
 
-### Bonus
+
+## Funrinute endpoints
+- [ ] Add furniture model
+- [ ] Add furniture service
+- [ ] Add create furniture endpoint
+
+
+ ### Bonus
 -[] Build
