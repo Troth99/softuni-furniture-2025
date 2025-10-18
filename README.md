@@ -21,7 +21,7 @@
 - [x] Add json parse
 - [x] Install mongoose 'npm i mongoose'
 - [x] Add user model
-- [ ] Add user service with register method
+- [x] Add user service with register method
 - [ ] install bcrypt 'npm i bcrypt'
 - [ ] Hash password in register method
 - [] Register user
