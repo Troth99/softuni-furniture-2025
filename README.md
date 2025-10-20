@@ -33,7 +33,7 @@
 
 
 ## Funrinute endpoints
-- [ ] Add furniture model
+- [x] Add furniture model
 - [ ] Add furniture service
 - [ ] Add create furniture endpoint
 
