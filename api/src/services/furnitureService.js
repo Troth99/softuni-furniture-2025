@@ -7,8 +7,8 @@ export default {
             _ownerId: ownerId
         })
     },
-    getAll() {
-        return Furniture.find().select({ description: true, price: true, img: true, })
+    getAll(filter) {
+        return Furniture.find(filter).select({ description: true, price: true, img: true, })
     },
 
     getOne(furnitureId) {

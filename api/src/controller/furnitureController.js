@@ -4,8 +4,17 @@ import furnitureService from '../services/furnitureService.js';
 const furnitureController = Router();
 
 furnitureController.get('/', async (req, res) => {
+    
+    const where = req.query.where;
+    let filter = {};
 
-    const furnitures = await furnitureService.getAll()
+    if(where){
+        const [field, value ] = where.split('=');
+        filter[field] = value.replaceAll('"', '');
+    }
+
+
+    const furnitures = await furnitureService.getAll(filter)
 
     res.json(furnitures || [])
 })
@@ -55,7 +64,9 @@ furnitureController.delete('/:furnitureId', async (req, res) => {
         const furniture = await furnitureService.delete(furnitureId)
         res.json(furniture)
     } catch (error) {
-        
+
     }
-})
+});
+
+
 export default furnitureController

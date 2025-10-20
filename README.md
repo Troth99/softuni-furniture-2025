@@ -42,6 +42,7 @@
 - [x] Add owner relation in furniture model
 - [x] Edit furniture endpoint
 - [x] Delete endpoint
+- [x] Show filter furniture by owner
 
 
  ### Bonus
