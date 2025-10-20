@@ -38,6 +38,7 @@
 - [x] Add create furniture endpoint
 - [x] Add get all furnitures endpoint
 - [x] Select only needed info in get all furnitures
+- [x] Details create endpoint
 
 
  ### Bonus
