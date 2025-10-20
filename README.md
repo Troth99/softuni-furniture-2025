@@ -40,6 +40,7 @@
 - [x] Select only needed info in get all furnitures
 - [x] Details create endpoint
 - [x] Add owner relation in furniture model
+- [x] Edit furniture endpoint
 
 
  ### Bonus
