@@ -36,6 +36,7 @@
 - [x] Add furniture model
 - [x] Add furniture service
 - [x] Add create furniture endpoint
+- [ ] Add get all furnitures endpoint
 
 
  ### Bonus
