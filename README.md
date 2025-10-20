@@ -44,6 +44,5 @@
 - [x] Delete endpoint
 - [x] Show filter furniture by owner
 
-
- ### Bonus
--[] Build
+## Error handling
+- [x] Create error util for message

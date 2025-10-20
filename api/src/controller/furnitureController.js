@@ -1,5 +1,6 @@
 import { Router } from 'express'
 import furnitureService from '../services/furnitureService.js';
+import { getErrorMessage } from '../utils/errorHandlerUtil.js';
 
 const furnitureController = Router();
 
@@ -30,7 +31,7 @@ furnitureController.post('/', async (req, res) => {
         res.status(201).json(furniture)
 
     } catch (error) {
-
+        res.status(400).json({message: getErrorMessage(error)})
     }
 
 })
