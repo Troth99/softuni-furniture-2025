@@ -5,6 +5,6 @@ export default {
        return Furniture.create(furnitureData)
     },
     getAll(){
-        return Furniture.find()
+        return Furniture.find().select({description: true, price: true, img: true,})
     }
 }
