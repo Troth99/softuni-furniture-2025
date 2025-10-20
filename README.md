@@ -41,6 +41,7 @@
 - [x] Details create endpoint
 - [x] Add owner relation in furniture model
 - [x] Edit furniture endpoint
+- [x] Delete endpoint
 
 
  ### Bonus
