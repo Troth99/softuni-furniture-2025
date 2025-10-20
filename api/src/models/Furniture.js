@@ -1,4 +1,4 @@
-import { Schema, model } from 'mongoose'
+import { Schema, model, Types } from 'mongoose'
 
 
 
@@ -37,6 +37,10 @@ const furnitureSchema = new Schema({
     material: {
         type: String,
         required: false,
+    },
+    _ownerId: {
+        type: Types.ObjectId,
+        ref: 'User'
     }
 })
 
